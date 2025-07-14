@@ -3,7 +3,7 @@
 This repository is the official implementation of [EEPNet: Efficient Edge Point-based Matching
 Network for Cross-Modal Dynamic Registration
 between LiDAR and Camera]
-![[logo.png]]
+![EEPNet Best Paper Award](./logo.png)
 ## Environment
 You can set up the Python environment using the following command:
 ``` python
