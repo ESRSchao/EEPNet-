@@ -3,8 +3,7 @@
 This repository is the official implementation of [EEPNet: Efficient Edge Point-based Matching
 Network for Cross-Modal Dynamic Registration
 between LiDAR and Camera]
-
-![Video Demo](./videos/output_video.gif)
+![[logo.png]]
 ## Environment
 You can set up the Python environment using the following command:
 ``` python
@@ -35,7 +34,7 @@ python train.py --dataset_path <path_to_dataset> --device cuda:0
 
 ## Evaluation
 
-We provide a packaged test dataset for reproducing the results presented in the paper. You can download this dataset using this [link](). Additionally, you need to download our pre-trained models, which can be found at the [link](). After downloading, place the dataset in the root directory and start the evaluation with the following command:
+We provide a packaged test dataset for reproducing the results presented in the paper. You can download this dataset using this [link](https://drive.google.com/file/d/1GOwlK_K29-63kfp_0RZ0-w7o4hGDuRYb/view?usp=sharing). Additionally, you need to download our pre-trained models, which can be found at the [link](https://drive.google.com/file/d/1bdZhXDj4foHyO3gCcBJv12BesEudj395/view?usp=sharing). After downloading, place the dataset in the root directory and start the evaluation with the following command:
 
 ```eval
 python test.py
